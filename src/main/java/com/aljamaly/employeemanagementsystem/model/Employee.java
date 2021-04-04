@@ -26,9 +26,8 @@ public class Employee implements Serializable {
     @Column (nullable = false, updatable = false)
     private String empCode;
 
-    public Employee(String name, String email,
-                    String phoneNum, String jobTitle,
-                    String imageURL, String empCode) {
+    public Employee(String name, String email, String phoneNum,
+                    String jobTitle, String imageURL, String empCode) {
         this.name = name;
         this.email = email;
         this.phoneNum = phoneNum;
