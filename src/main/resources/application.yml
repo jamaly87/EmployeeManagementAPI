@@ -1,0 +1,16 @@
+#PostgreSQL / JPA Configuration
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/employeemanagement
+    username:
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
